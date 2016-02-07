@@ -1,0 +1,13 @@
+language: objective-c
+os: osx
+osx_image: xcode7.2
+
+xcode_project: Table.swift/Table.swift.xcodeproj
+xcode_scheme: Table.swift
+
+script: 
+- set -o pipefail && xcodebuild -project Table.swift/Table.swift.xcodeproj -scheme Table.swift -enableCodeCoverage YES clean build test | xcpretty
+
+after_success:
+- bash <(curl -s https://codecov.io/bash)
+
