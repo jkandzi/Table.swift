@@ -9,6 +9,26 @@
 
 ## Example
 
+```swift
+import Table
+
+Table().put([["A", "B", "C"],
+	["X", "XX", "XXX"],
+	["Hello", "World", "!"]])
+```
+
+Creates the following output:
+
+```
++-------+-------+-----+
+| A     | B     | C   |
++-------+-------+-----+
+| X     | XX    | XXX |
++-------+-------+-----+
+| Hello | World | !   |
++-------+-------+-----+
+```
+
 ## Installation
 
 ### Cocoapods
