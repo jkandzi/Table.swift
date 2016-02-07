@@ -22,6 +22,8 @@ public struct Table {
         Printer()
     }()
     
+    public init() {}
+    
     public mutating func put<T>(data: [[T]]) {
         guard let firstRow = data.first where !firstRow.isEmpty else {
             printer.put("")
