@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'Table.swift'
-  s.version = '0.1.6'
+  s.version = '0.1.0'
   s.license = 'MIT'
   s.summary = 'Instantly draw beautiful tables to your terminal.'
   s.description = <<-DESC
