@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.license = 'MIT'
   s.summary = 'Instantly draw beautiful tables to your terminal.'
   s.description = <<-DESC
-                  Pretty print arrays to your terminal.
+                  Pretty print two-dimensional arrays to your terminal.
                   DESC
   s.platform = :osx
   s.homepage = 'https://github.com/jkandzi/Table.swift'
