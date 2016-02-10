@@ -31,7 +31,7 @@ Creates the following output:
 
 ## Installation
 
-### Cocoapods
+### CocoaPods
 
 Table.swift is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
