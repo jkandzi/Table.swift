@@ -13,7 +13,7 @@ class MockPrinter: PrinterType {
     
     var lines = [String]()
     
-    func put(string: String) {
+    func put(_ string: String) {
         print(string)
         lines.append(string)
     }
